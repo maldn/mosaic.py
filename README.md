@@ -17,9 +17,9 @@ for r in range(0, 255, 30):
 ```
 * find dominant colors in those images
 ```
-$ python analyze.py > image_colors.csv
+$ python analyze.py my_images/* > image_colors.csv
 ```
-* create a mosaic for <input_image>
+* create a mosaic
 ```
 $ python mosaic.py <input_image> out.png
 ```
